@@ -39,3 +39,10 @@ actual = celsius_to_delisle(test_input)
 print(f"Test input: {test_input}")
 print(f"Predicted Delisle values: {predictions}")
 print(f"Actual Delisle values: {actual}")
+"""
+Results 
+Test input: [ 40.   0. 100.]
+Predicted Delisle values: [[ 89.89]
+ [149.93]
+ [ -0.16]]
+Actual Delisle values: [ 90. 150.   0.]"""
